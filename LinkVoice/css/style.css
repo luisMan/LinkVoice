@@ -1,0 +1,719 @@
+*{
+	margin: 0 auto;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-user-select:none;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+body{
+/*background-image: url("../img/background.png");*/
+}
+
+.voice_wrapper{
+	width:100%;
+	min-height: 2000px;
+	position: absolute;
+	/*background-color: rgba(255,255,255,1);*/
+	margin: 0 auto;
+}
+.voice_pwrapper{
+	width:100%;
+	min-height: 2000px;
+	position: absolute;
+	/*background-color: rgba(255,255,255,1);*/
+	margin: 0 auto;
+}
+.voice_logo{
+	width:100px;
+	height: 70px;
+	margin-top: 25px;
+	float:left;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+ 	cursor: pointer;
+}
+
+
+.voice_nav{
+	width:97.50%;
+	padding-left: 1.25%;
+	padding-right: 1.25%;
+	height:100px;
+    background-color: rgba(64,153,255, 0.9);
+	
+}
+
+.footer{
+	width:97.50%;
+	float: center;
+	margin-left: 1.50%;
+	height:100px;
+	background-color: rgba(64,153,255, 0.9);
+	color: black;
+	bottom: 0px;
+	position: fixed;
+	display: none;
+
+}
+.voice_content{
+	width:97.50%;
+	padding-left: 1.25%;
+	padding-right: 1.25%;
+	float: center;
+}
+
+.foremost_n{
+	left:0px;
+	margin-left: 0px;
+
+}
+
+.foremost_pcontent{
+	width:97.50%;
+	min-height:100px;
+	border: 1px solid rgba(1,1,1,0.5);
+	background-color: rgba(255,255,255,0.8);
+	padding-left: 1.25%;
+	padding-right: 1.25%;
+	float: center;
+	margin-top: .5%;
+	display: none;
+}
+
+.foremost_content{
+    width:97.50%;
+	height:400px;
+	/*border: 1px solid rgba(1,1,1,0.5);*/
+	padding-left: 1.25%;
+	padding-right: 1.25%;
+	float: center;
+	margin-top: .5%;
+	
+	
+}
+
+.foremost_type{
+	 width:97.50%;
+	height:40px;
+	padding-left: 1.25%;
+	padding-right: 1.25%;
+	float: top;
+	color:black;
+	cursor: pointer;
+	text-align: left;
+	border-bottom: 1px solid rgba(1,1,1,0.1);
+	background-color: transparent;
+}
+.foremost_tag{
+    width:97.50%;
+	height:20px;
+	padding-left: 1.25%;
+	padding-right: 1.25%;
+	float: top;
+	color:white;
+	text-align: left;
+	border-bottom: 1px solid rgba(1,1,1,0.1);
+	/*background-color: rgba(1,1,1,0.8);*/
+}
+.foremost_tag ul{
+    float:left;
+    bottom: 0;
+}
+.foremost_tag ul li{
+   display: inline-block;
+   padding-left: 10px;
+   padding-right: 10px;
+   text-align: center;
+   cursor: pointer;
+   color: black;
+
+}
+.foremost_tag ul li:hover{
+   display: inline-block;
+   padding-left: 10px;
+   padding-right: 10px;
+   color: black;
+   background-color: rgba(1,1,1,0.4);
+   
+}
+
+
+
+
+.voice_news
+{
+	width:20px;
+	min-height: 1000px;
+	/*background-color: rgba(1,1,1,0.4);*/
+	float: left;
+	margin-left: 5%;
+
+}
+
+.voice_advertisement
+{
+	width: 25%;
+	min-height: 1000px;
+	background-color: rgba(1,1,1,0.1);
+	float: right;
+	top: 530px;
+	position: absolute;
+	margin-left: 66.9%;
+
+}
+.voice_padvertisement
+{
+	width: 25%;
+	min-height: 1230px;
+	background-color: rgba(1,1,1,0.1);
+	float: right;
+	top: 140px;
+	position: absolute;
+	margin-left: 67.9%;
+
+}
+/*=================================PROFILE ATTR====================================*/
+.profile
+{
+	width: 95%;
+    height: 170px;
+	background-color: rgba(255,255,255,1);
+	border: 1px solid black dotted;
+	float: center;
+
+
+}
+.profile table .td{
+	width:120px;
+	height: 70px;
+	background-color: gray;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	color:white;
+	text-align: center;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.profile table .td>div{
+	float: center;
+	background-color: black;
+	color:white;
+	width:100%;
+	}
+.profile table .rep p{
+	font-size: 16px;
+	padding-top: 2px;
+	float: right;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.rep{
+	width:0%;
+	height:20px;
+	border-radius: 10px;
+	background-color: rgba(0,255,0,0.7);
+}
+
+.badges{
+	width: 95%;
+	height: 300px;
+    margin-top: 10px;
+   	background-color: rgba(255,255,255,1);
+	border: 1px solid black dotted;
+	float: center;
+
+}
+
+/*========================end profile attr==========================*/
+
+.img{
+	width:80px;
+	height: 80px;
+	border-radius: 100%;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: -15px;
+	border: 1px solid rgba(0,0,1,0.5);
+	background-color: rgba(0,0,0,1);
+}
+.commentImg
+{
+    width:50px;
+	height: 50px;
+	border-radius: 100%;
+	float: left;
+	border: 1px solid rgba(0,0,1,0.5);
+	background-color: rgba(0,0,0,1);
+}
+
+.user-post
+{
+	width: 0px;
+	min-height: 300px;
+	margin-left: 0px;
+	background-repeat: no-repeat;
+}
+
+
+.postTitle{
+	width:400px;
+	background-color: rgba(1,1,1,0.3);
+	color: white;
+
+}
+
+.buttonComment{
+	width:70px;
+	height:70px;
+	border-radius: 100%;
+	background-color: rgba(64,153,255, 0.9);
+	color:white;
+	text-align: center;
+	border: none;
+}
+
+.button_user{
+	width:100px;
+	height:30px;
+	margin-top: 25px;
+	background-color: rgba(0,0,0,1);
+	text-align: center;
+	color: white;
+     float: right;
+}
+.button_user label{
+width: 100px;
+height: 20px;
+background-color: rgba(255,255,255,0.6);
+color: white;
+text-align: center;
+font-size: 12px;
+margin-top: 5px;
+}
+
+.button_user>ul{
+	display: none;
+}
+.button_user>ul>li
+{
+	display: block;
+	width: 100px;
+	height: 30px;
+	background-color: rgba(0,0,0,1);
+	text-align: center;
+	color: white;
+	z-index: 999;
+}
+.button_user>ul>li:hover
+{
+	display: block;
+	width: 100px;
+	
+
+	height: 30px;
+	background-color: rgba(0,0,0,0.5);
+	border: 1px solid rgba(255,255,0,0.5);
+	text-align: center;
+	color: white;
+	z-index: 999;
+}
+
+
+.post{
+	display: none;
+	background-color: rgba(255,255,255,0.8);
+	color: black;
+	text-align: left;
+	/*position: absolute;*/
+	margin-top: 1%;
+	width: 75%;
+	min-height:400px;	
+}
+
+
+strong{
+width: 100px;
+height: 30px;
+background-color: rgba(255,255,255,0.6);
+color: white;
+text-align: center;
+font-size: 12px;
+}
+#tcol{
+width: 130px;
+height: 30px;
+margin-left: 5px;
+background-color: rgba(0,0,0,0.8);
+color: white;
+text-align: center;
+border: 1px solid white;
+}
+.tableNav{
+	margin-left: 16%;
+	float:left;
+}
+
+.signupButton{
+	background-color: rgba(0,255,0,0.5);
+	color:white;
+}
+
+.loginButton{
+	background-color: rgba(0,255,0,0.5);
+	color:white;
+}
+/*php function choise to read style */
+
+.languages
+{
+	display: none;
+}
+.languages div
+{
+	display: inline-table;
+}
+.choiceToRead{
+	width:100px;
+	height:70px;
+	text-align: center;
+	padding-top: 30px;
+	color: white;
+	margin-left: 1%;
+	margin-top: 1%;
+	background-color: rgba(1,1,1,0.8);
+}
+
+.choiceToRead:hover{
+	width:100px;
+	height:70px;
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+	margin-left: 1%;
+	margin-top: 1%;
+	background-color: rgba(0,0,205,0.8);
+
+	
+}
+
+.languageTranslate{
+	width:100px;
+	height:70px;
+	text-align: center;
+	padding-top: 30px;
+	color: black;
+	margin-left: 1%;
+	margin-top: 1%;
+	background-color: rgba(1,1,1,0.2);
+}
+
+.languageTranslate:hover{
+	width:100px;
+	height:70px;
+	text-align: center;
+	color: black;
+	padding-top: 30px;
+	margin-left: 1%;
+	margin-top: 1%;
+	background-color: rgba(64,153,255, 0.9);
+}
+
+.upvote-btn{
+	margin-left: -150px;
+	width: 100px;
+	text-align: right;
+	background-color: none;
+}
+/*==========================================SLIDE SHOW ==============================*/
+#slide-show{
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	left: 0px;
+	margin-left: 0px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#slide-show>table{
+ float: center;
+  width: 100%;
+  height: 400px;
+  margin-top: -5px;
+  position: relative;
+
+
+}
+#image-label
+{
+  width:300px;
+  padding: 0px;
+  position: relative;
+  float: left;
+  margin-top: -190px;
+
+}
+
+#slideW
+{
+	 width:100%;
+	 height: 400px;
+	 background-color: transparent;
+	 float: center;
+	 margin: 0 auto;
+  position: relative;
+
+}
+
+#slideW>img{
+   display: none;
+
+}
+#leftB
+{
+	width: 5%;
+	/*background-color: rgba(0,0,0,0.1);*/
+
+}
+#rightB
+{
+	width: 5%;
+	/*background-color: rgba(0,0,0,0.1);*/
+
+}
+#moveLeft
+{
+   width: 100px;
+   height:400px;
+   background-image: url('../img/left.png');
+   background-repeat: no-repeat;
+}
+#moveRight
+{
+   width: 100px;
+  height: 400px;
+  background-image: url('../img/right.png');
+  background-repeat: no-repeat;
+}
+
+#ids {
+ color: rgba(255,255,255,1);
+ border: 1px dotted white;
+width: 300px;
+height: auto;
+position: absolute;
+margin-top: 10px;
+background-color: rgba(0,0,0,0.3);
+
+}
+
+#play-pause{
+  width: 50px;
+  height: 50px;
+  margin-top: -50px;
+}
+/*====================================End of Slide ====================================*/
+/*CHECK IN*/
+.checkIn{
+  width:400px;
+  height:400px;
+  background-color: rgba(1,1,1,0.8);
+  color: white;
+  border: 1px solid rgba(255,255,255,1);
+  margin: 0 auto;
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  z-index: 9999;
+}
+/*====================================REGISTRATION================================================*/
+	
+
+	.registration form
+	{
+      width: 300px;
+      margin-top: 25%;
+      margin-left: 3%;
+      float: left;
+      background-color: rgba(0,0,0,1);
+      color: white;
+    }
+
+    .loggingUser form
+    {
+      width: 300px;
+      margin-top: 25%;
+      margin-left: 3%;
+      float: left;
+      background-color: rgba(0,0,0,1);
+      color: white;
+
+    }
+
+  
+    .fieldname{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    }
+ 
+    .inputs{
+     width: 300px;
+     height: 35px;
+     border-radius: 15px;
+     border: 1px solid white;
+     background-color: white;
+     color: rgba(0,0,0,1);
+
+     }
+
+
+ .error{
+ 	background-color: red;
+ 	color: yellow;
+ 	text-align: center;
+ }/*==============================================END HERE REG==========================================*/
+ #copyRight{
+ 	float:left;
+ 	color: white;
+ 	font-size: 16px;
+ 	margin-top: 35px;
+ 	margin-right: 15px;
+ }
+ #contact{
+ 	float:left;
+ 	color: white;
+ 	font-size: 14px;
+ 	margin-top: 35px;
+ 	margin-right: 35px;
+
+ 	cursor: pointer;
+ }
+ #contact:hover{
+ 	float:left;
+ 	color: white;
+ 	font-size: 14px;
+ 	margin-top: 35px;
+ 	margin-right: 35px;
+
+ 	cursor: pointer;
+ 	background-color: rgba(0,0,0,0.4);
+ }
+
+
+ #category{
+    float:right;
+    width:100px;
+    height: 30px;
+    margin-top: 35px;
+ 	color: white;
+ 	font-size: 14px;
+ 	padding-top: 5px;
+ 	margin-right: 5px;
+ 	background-color: black;
+    text-align: center;
+    border: 1px solid white;
+    cursor: pointer;
+    z-index: 9999;
+ }
+ #categoryDiv{
+ 	width:97.50%;
+	height:300px;
+	/*border: 1px solid rgba(1,1,1,0.5);*/
+	padding-left: 1.25%;
+	padding-right: 1.25%;
+	float: center;
+	margin-top: -300px;
+	z-index: 9999;
+	display: none;
+	background-color: rgba(255,255,255,0.9);
+ }
+ #categoryDiv div
+{
+	display: inline-table;
+	 background-color: rgba(1,1,1,0.2);
+	 color:black;
+	 z-index: 9999;
+}
+ #categoryDiv div:hover
+{
+	 background-color: rgba(64,153,255, 0.9);
+	 color:black;
+	 z-index: 9999;
+}
+#postNewsTable{
+	background-color: rgba(1,1,1,0.6);
+}
+#col1{
+	text-align:center;
+}
+#col1 label{
+	color: black;
+}
+#col2>input{
+left:0px;
+margin-left:0px;
+}
+
+  #contactForm
+    { 
+
+      width: 100%;
+      height: 400px;
+      background-color: rgba(0,0,0,0.3);
+      display: none;
+      top:0px;
+      position: absolute;
+      margin-top: -400px;
+      color: black;
+    }
+    #contactForm form{
+    	top:0px;
+    	margin-top: 10px;
+
+    }
+    .col1{
+      width: 10%;
+      color: black;
+    }
+
+    .col2{
+      width: 20%;
+    }
+     .formElement span
+    {
+       color: red;
+    }
+     .nameError
+    {
+     color: red;
+    }
+    .emailError{
+      color: red;
+    }
+    .lastError
+    {
+      color: red;
+    }
+    .messageError
+    {
+      color: red;
+    }
+    #submitContact{
+    	width:100px;
+    	height:30px;
+    	background-color: rgba(0,0,255,0.6);
+    	border: 1px solid rgba(255,255,255,1);
+    	text-align: center;
+    	color: black;
+    	cursor: pointer;
+    	padding-top: 5px;
+
+    }
+
+
+    
